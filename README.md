@@ -7,6 +7,15 @@
 ## Support Discord
 You can join my discord using [this link](https://discord.gg/nTzWG2etMz).
 
+## Config File
+When downloading/forking the repository, you have to create a ``config.js`` file in the main folder.
+```
+{
+  "Token": "TOKEN HERE",
+  "Database": "DATABASE HERE"
+}
+```
+
 ## FAQ
 #### How do I add the bot?
 - You can add the english bot by clicking here & add the german bot by clicking [here](https://discord.com/oauth2/authorize?client_id=1008715802079399958&permissions=8&scope=bot%20applications.commands).
