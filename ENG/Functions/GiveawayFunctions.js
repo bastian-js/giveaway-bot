@@ -57,7 +57,7 @@ async function endGiveaway(message, reroll = false) {
     embeds: [endGiveawayEmbed],
     components: [disableButton],
   });
-  message.reply({
+  await message.reply({
     content: winnerIdArray.length
       ? `Congratulations ${winnerIdArray
           .map((user) => `<@${user}>`)

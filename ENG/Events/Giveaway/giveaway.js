@@ -62,7 +62,7 @@ module.exports = {
         .setLabel("Join Here")
     );
 
-    interaction
+    await interaction
       .reply({
         content: "🎉 **Giveaway Started** 🎉",
         embeds: [giveawayEmbed],
