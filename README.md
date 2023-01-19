@@ -8,7 +8,7 @@
 You can join my discord using [this link](https://discord.gg/nTzWG2etMz).
 
 ## Config File
-When downloading/forking the repository, you have to create a ``config.js`` file in the main folder.
+When downloading/forking the repository, you have to create a ``config.json`` file in the main folder.
 ```
 {
   "Token": "TOKEN HERE",
